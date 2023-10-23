@@ -1,0 +1,16 @@
+.icono-footer {
+    font-size: 30px;
+    color: var(--colorCeleste);
+    display: block;
+    text-align: center;
+}
+.home__footer__section {
+    text-align: center;
+    padding: 20px;
+}
+.home__footer__section p{
+margin: 0;
+}
+.home__footer__section h4{
+margin-bottom: 0;
+}
