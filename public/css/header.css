@@ -1,41 +1,97 @@
 .logo {
-    max-width: 40%;
-    height: auto;
-    padding: 40px;
-    padding-bottom: 20px;
+  max-width: 35%;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-bottom: 15px;
 }
+
 #barra-busqueda {
-    display: flex;
-    width: 200px;
+  display: flex;
+  width: 170px;
 }
-.home__header{
-    background-color: var(--colorAmarillo);
+.home__header {
+  background-color: var(--colorAmarillo);
 }
 .header__nav--menu ul li a {
-    color: black;
+  color: black;
 }
+.header__nav--menu {
+  display: none;
+}
+
 .mensaje-oferta {
-    text-align: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 .burger-menu {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 .burger-menu i {
-    margin-bottom: 10px;
-    display: inline-block;
-    text-align: center;
-    font-size: 25px;
-    background-color: var(--colorCeleste);
-    color: white;
-    padding: 10px;
-    border-radius: 20%;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  background-color: var(--colorCeleste);
+  color: white;
+  padding: 10px;
+  border-radius: 20%;
 }
+
+.home__main__section__article {
+  border-top: 1px solid #ebebeb;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.main__section__article__div {
+  padding: 15px;
+  border-top: 1px solid var(--colorGrisClaro);
+}
+.article__div--envio {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--colorVerde);
+}
+.logo__envio {
+  color: var(--colorVerde);
+}
+
 .precio-producto {
-    font-size: 18px;
+  font-size: 18px;
 }
 .precio-descuento {
-    font-size: 16px;
+  font-size: 16px;
+  color: var(--colorVerde);
 }
+.descripcion-articulo {
+  margin-top: 10px;
+  color: var(--colorGrisOscuro);
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .burger-menu i {
+    display: none;
+  }
+  .header__nav--menu {
+    display: block;
+  }
+  .descripcion-articulo {
+    display: block;
+  }
+  .home__main__section__article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+}
+/*
+@media (min-width: 1024px)
+ 
+     media query para desktop, cumple la consigna*/
