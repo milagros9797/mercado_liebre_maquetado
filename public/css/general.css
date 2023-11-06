@@ -16,6 +16,10 @@
 
 header {
   padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 body {
@@ -31,8 +35,11 @@ main {
   width: 90%;
 }
 form {
-  display: flex;
-  gap: 5px;
+  margin-top: 10px;
+  max-width: 50%;
+}
+p {
+  width: 100%;
 }
 
 h2 {
@@ -42,6 +49,7 @@ h2 {
   background-color: var(--colorGrisClaro);
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 100%;
 }
 li {
   list-style: none;
