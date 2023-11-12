@@ -36,7 +36,7 @@ main {
 }
 form {
   margin-top: 10px;
-  max-width: 50%;
+  width: 100%;
 }
 p {
   width: 100%;
@@ -78,4 +78,20 @@ h3 {
 footer {
   background-color: #ffffff;
   border: 5px solid var(--colorGrisClaro);
+}
+
+.box__end {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.box__card {
+  width: 90%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px var(--colorGrisOscuro);
+  border-radius: 5px;
 }

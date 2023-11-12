@@ -1,0 +1,16 @@
+.button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button__primary {
+  background-color: var(--colorCeleste);
+  color: #ffffff;
+}
+
+.button_secondary {
+  background-color: var(--colorGrisOscuro);
+  color: #ffffff;
+}
