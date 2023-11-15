@@ -75,11 +75,6 @@ h3 {
   font-size: 16px;
 }
 
-footer {
-  background-color: #ffffff;
-  border: 5px solid var(--colorGrisClaro);
-}
-
 .box__end {
   width: 100%;
   display: flex;
